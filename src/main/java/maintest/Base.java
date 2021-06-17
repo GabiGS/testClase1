@@ -11,7 +11,7 @@ public class Base {
         WebDriverManager.chromedriver().setup();
         this.driver = new ChromeDriver();
         driver.manage().window().maximize();
-        // driver.manage().deleteAllCookies();
+         driver.manage().deleteAllCookies();
         return driver;
     }
 }
